@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url('images/moon-2048727_1920.jpg')
+}
+
+
+.container {
+    height: 600px;
+    overflow-y:scroll;
+    border:1px solid #ccc;
+    max-width: 600px;
+    margin: 90px auto;
+    padding: 20px;
+    background-color:rgba(180, 104, 74, 0.689);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #4886c9;  
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    
+    
+}
+
+/*  */
+
+.chat_area h5 {
+    margin: 0;
+    font-size: 16px;
+    color:black;
+}
+.chat_area p{
+    background-color: #799ec6;
+    height: 30%;    
+    overflow:hidden;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.inbound {
+    text-align: left;
+    margin-right: auto;
+    
+}
+
+.outbound {
+    text-align: right;
+    margin-left: auto;
+}
+.inbound p{
+    width: 60%;
+    margin-right:220px;
+}
+.outbound p{
+    width:60%;
+    margin-left:220px;
+}
+
+textarea {
+    width: calc(100% - 80px);
+    height: 60px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    width: 80px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.input_field{
+    display: flex;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+}
+
